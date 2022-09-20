@@ -1,0 +1,38 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/FATFS/Target",
+                "${workspaceFolder}/FATFS/App",
+                "${workspaceFolder}/USB_HOST/App",
+                "${workspaceFolder}/USB_HOST/Target",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/BSP/Components/Common",
+                "${workspaceFolder}/Drivers/BSP/Components/ili9341",
+                "${workspaceFolder}/Drivers/BSP/Components/l3gd20",
+                "${workspaceFolder}/Drivers/BSP/Components/stmpe811",
+                "${workspaceFolder}/Drivers/BSP/STM32F429I-Discovery",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Middlewares/Third_Party/FatFs/src",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Host_Library/Core/Inc",
+                "${workspaceFolder}/Middlewares/ST/STM32_USB_Host_Library/Class/MSC/Inc",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/DOOM/include",
+                "${workspaceFolder}/VirtualJoystick"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F429xx"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

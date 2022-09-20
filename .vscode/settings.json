@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "deh_main.h": "c",
+        "doomfeatures.h": "c"
+    },
+    "cortex-debug.gdbPath": "gdb-multiarch",
+    "cortex-debug.armToolchainPath": "/usr/bin",
+    "cortex-debug.openocdPath": "/usr/bin/openocd"
+}
